@@ -1,0 +1,10 @@
+POST http://localhost:8000/employees
+Content-Type: application/json
+
+{
+    "name": "Santo",
+    "job_title": "data-scientist"
+}
+
+####
+GET http://localhost:8000/employees?job_title=data-scientist
